@@ -1,0 +1,23 @@
+My created code
+
+public class MyCode {
+	    public static void main(String[] args) {
+
+	        int people = 3;
+	        String peopleString;
+	        switch (people) {
+	            case 1:  peopleString = "Boy";
+	                     break;
+	            case 2:  peopleString = "Girl";
+	                     break;
+	            case 3:  peopleString = "Woman";
+	                     break;
+	            case 4:  peopleString = "Man";
+	                     break;
+	            
+	            default: peopleString = "Invalid month";
+	                     break;
+	        }
+	        System.out.println(peopleString);
+	    }
+	}

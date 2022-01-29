@@ -1,0 +1,22 @@
+// These codes are codes that I made up to learn java
+
+// ages for kids
+
+public class Array1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int ages[]= new int [3];
+		
+		ages [0] = 9;
+		ages [1] = 8;
+		ages [2] = 7;
+		
+		System.out.println("He is " + ages[0]);
+		
+		
+
+	}
+
+}

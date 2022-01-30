@@ -1,0 +1,32 @@
+// my own example for using "for loops"
+
+public class arrayLoops {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double teamScore[] = {10.0, 30.9, 30.7, 90.8, 70.2, 80.9};
+		int numbers[] = new int[10];//10  elements in he array
+		int i;
+		
+		for(i = 0; i <= 5; i++)
+		{
+			/** Prints out all data in the array **/
+			System.out.println(" The team score  " + i + " is " + teamScore[i]);
+		}
+		
+		for (i = 0; i <= 9; i++)
+				{
+					numbers[i] = i + 10;// the for loop will start at 10 and keep going
+				}
+		for (i = 0; i <= 9; i++)
+				{
+			System.out.println(numbers[i]);// print elements for numbers
+				}
+				
+	}
+
+}

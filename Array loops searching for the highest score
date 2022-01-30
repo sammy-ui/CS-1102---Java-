@@ -1,0 +1,36 @@
+
+public class arrayLoops {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double teamScore[] = {10.0, 30.9, 30.7, 90.8, 70.2, 80.9};
+		// highest team score
+		double max;
+		
+		int i;
+		
+		max = teamScore[0]; // starting point
+		
+		for (i=0; i<= 5; i++)
+		{
+			if (teamScore [i] > max) max = teamScore [i];
+			/** if teamScore starting point space 0 is greater than my max value then
+			if want the max value to equal to the highest value
+			no line was made for if the score if lower. it only changes if the 
+			grade is higher **/
+		}
+		
+		System.out.println("\n the highest score is; " + max);
+		
+	}
+		
+	/* teamScore at 0 is 10.0 which is not high so the
+	system should send back a score of 90.8. It should always
+	 check for the highest score*/
+	}
+
+

@@ -1,0 +1,38 @@
+
+public class arrayLoops {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int schoolClass[] = { 12,14,16,18,10,20,30,40,52, 11, 75, 13, 88, 79,54}; //15 classmates
+		/* These are the ages of the classmates
+		 * the purpose is to find the max/min age at
+		 * this school.
+		 */
+		
+		int youngest = schoolClass [0]; // place holder for lowest age
+		int oldest = schoolClass[0];
+		
+		for(int i = 0; i <= 14; i++) {
+		/*the first index is always 0, 
+		 * i is less than or = to 14 because there are 15 nums in the array
+		 * use i++ in our statement if we want to use the current value, 
+		 * and then we want to increment the value of i by 1. 
+		 */
+			if (schoolClass[i] < youngest ) youngest = schoolClass [i];
+			
+				/* 2 parts if there is a student age less than the assigned staring point 0 value 
+				 *  then I want to reassign the age to the lowest number
+				 *  found in the array
+				 */
+			if (schoolClass[i] > oldest ) oldest = schoolClass [i];
+		}
+			System.out.println(" The youngest classmate is: " + youngest);
+			System.out.println(" The oldest classmate is: " + oldest);
+	// make sure println is outside of the {}
+			/*  The youngest classmate is: 10
+			 The oldest classmate is: 88 */
+	}
+}
